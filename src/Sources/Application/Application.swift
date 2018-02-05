@@ -22,8 +22,16 @@ public class App {
 
         // Endpoints
         initializeHealthRoutes(app: self)
-    }
+        
+        // Handle HTTP GET requests to /
+        router.get("/") {
+            request, response, next in
+            response.send("Hello, World!")
+            next()
+        }
 
+    }
+    
     public func run() throws {
         try postInit()
         Kitura.addHTTPServer(onPort: cloudEnv.port, with: router)
