@@ -52,6 +52,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		B677A0F520296015008AB9E7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B677A0EC20295FCC008AB9E7 /* Home.swift */; };
 		OBJ_1000 /* SSLService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SSLService::SSLService::Product" /* SSLService.framework */; };
 		OBJ_1001 /* Socket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Socket::Socket::Product" /* Socket.framework */; };
 		OBJ_1002 /* LoggerAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "LoggerAPI::LoggerAPI::Product" /* LoggerAPI.framework */; };
@@ -2194,6 +2195,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B677A0EC20295FCC008AB9E7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		"CloudEnvironment::CloudEnvironment::Product" /* CloudEnvironment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CloudEnvironment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"CloudFoundryEnv::CloudFoundryEnv::Product" /* CloudFoundryEnv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CloudFoundryEnv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Configuration::Configuration::Product" /* Configuration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Configuration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2990,6 +2992,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_13 /* HealthRoutes.swift */,
+				B677A0EC20295FCC008AB9E7 /* Home.swift */,
 			);
 			path = Routes;
 			sourceTree = "<group>";
@@ -3756,7 +3759,7 @@
 			name = "KituraRequest 0.8.2";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -3766,7 +3769,6 @@
 				OBJ_20 /* Dependencies */,
 				OBJ_333 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_50 /* KituraRequest */ = {
@@ -4999,7 +5001,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_333 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -5543,6 +5545,7 @@
 			files = (
 				OBJ_663 /* Application.swift in Sources */,
 				OBJ_664 /* InitializationError.swift in Sources */,
+				B677A0F520296015008AB9E7 /* Home.swift in Sources */,
 				OBJ_665 /* Metrics.swift in Sources */,
 				OBJ_666 /* HealthRoutes.swift in Sources */,
 			);

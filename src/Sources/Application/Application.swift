@@ -22,13 +22,7 @@ public class App {
 
         // Endpoints
         initializeHealthRoutes(app: self)
-        
-        // Handle HTTP GET requests to /
-        router.get("/") {
-            request, response, next in
-            response.send("Hello, World!")
-            next()
-        }
+        initializeHome(app: self)
 
     }
     
